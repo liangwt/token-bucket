@@ -1,11 +1,15 @@
 ### 简单令牌桶实现限流
 
-Feature:
+**Principle:**
+
+![](https://ws1.sinaimg.cn/large/b373c093ly1fvlvm29338j20bp06pwek.jpg)
+
+**Feature:**
 - 使用带缓冲通道作为桶实现
 - 使用定时器触发令牌发放
 - 线程安全可实现多并发
 
-Example:
+**Example:**
 
 ```go
 package main
